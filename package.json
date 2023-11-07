@@ -1,0 +1,49 @@
+{
+  "_args": [
+    [
+      "git://github.com/contentools/gettext-merge.git#master",
+      "/Users/davi/Projetos/contentools/frontend"
+    ]
+  ],
+  "_development": true,
+  "_from": "git://github.com/contentools/gettext-merge.git#master",
+  "_id": "gettext-merge@git://github.com/contentools/gettext-merge.git#e4e886007829114931caa7a5124a0905be81cd1f",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/gettext-merge",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/contentools/gettext-merge.git#master",
+    "rawSpec": "git://github.com/contentools/gettext-merge.git#master",
+    "saveSpec": "git://github.com/contentools/gettext-merge.git#master",
+    "fetchSpec": "git://github.com/contentools/gettext-merge.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git://github.com/contentools/gettext-merge.git#e4e886007829114931caa7a5124a0905be81cd1f",
+  "_spec": "git://github.com/contentools/gettext-merge.git#master",
+  "_where": "/Users/davi/Projetos/contentools/frontend",
+  "author": {
+    "name": "Bruno Bertolini"
+  },
+  "bin": {
+    "gettext-merge": "bin/gettext-merge"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "gettext-parser": "^1.1.2",
+    "yargs": "^4.1.0"
+  },
+  "description": "Merge .pot with .po ",
+  "directories": {
+    "bin": "./bin"
+  },
+  "license": "MIT",
+  "main": "./lib/run.js",
+  "name": "gettext-merge",
+  "preferGlobal": "true",
+  "version": "0.1.0"
+}
